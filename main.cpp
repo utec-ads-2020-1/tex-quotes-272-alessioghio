@@ -18,11 +18,11 @@ int main(){
                     *i = '\'';
                     input.insert(i,'\'');
                 }
-            idx++;
+            idx++; // Use idx to determine if ` or ' should be placed
             // Since string is updated during loop, string limits have to be updated
             init = input.begin();
             end = input.end();
-            i = init+idx2; // Use of idx2 so it does not have to start the loop from the beginning
+            i = init+idx2; // Use idx2 so it does not have to start the loop from the beginning
             }
         i++;
         idx2++;
